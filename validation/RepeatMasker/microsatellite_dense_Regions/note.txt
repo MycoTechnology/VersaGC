@@ -1,0 +1,2 @@
+Regions of simple repeats/low complexity, generated using full output minus -nolow regions
+bedtools subtract -A -a [fullBed] -b [-nolowBed] > msd_regions.bed
