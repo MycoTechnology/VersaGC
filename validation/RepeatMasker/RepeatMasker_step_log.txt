@@ -1,0 +1,15 @@
+
+#Repeatmasker run 2x (first run omits -nolow)
+RepeatMasker \
+-species "fungi" \
+-pa 8 \
+-gff \
+-nolow \
+-dir repeatmasker_output_nolow \
+GCF_000146045.2_R64_genomic.fna
+
+#convert repeatmasker output to bed
+(bedops) rmsk2bed < [repeatmasker *.out file] > *.out.bed
+
+#used awk to fix rmsk2bed files containing 16th field on some lines ending in * (indicates overlapping region whose masking is superceded by the alternate annotation)
+
