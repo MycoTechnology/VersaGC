@@ -1,0 +1,2 @@
+(machine: laptop, docker image: davidebolo1993/visor) VISOR HACk -b hack_bed_trueNeg.bed -g GCF_000146045.2_R64_genomic.fna -o hack_out
+

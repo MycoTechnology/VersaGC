@@ -1,0 +1,4 @@
+*.fq.gz filter=lfs diff=lfs merge=lfs -text
+*.bam filter=lfs diff=lfs merge=lfs -text
+*.sam.gz filter=lfs diff=lfs merge=lfs -text
+contig_depth.txt filter=lfs diff=lfs merge=lfs -text

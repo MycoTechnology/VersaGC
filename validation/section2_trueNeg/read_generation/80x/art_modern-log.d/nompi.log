@@ -1,0 +1,83 @@
+[2026-06-23 09:15:00.103158] [T=0x00007f28f75ad780@MPI=:] info: Log file sink to '/home/chase/Documents/gap_closure_tool/validation/section2_trueNeg/read_generation/80x/art_modern-log.d/nompi.log' added.
+[2026-06-23 09:15:00.103349] [T=0x00007f28f75ad780@MPI=:] info: MPI not found! Cross-node parallelism disabled.
+[2026-06-23 09:15:00.103813] [T=0x00007f28f75ad780@MPI=:] info: ARGS: art_modern --mode wgs --lc pe --pe_frag_dist_mean 300 --pe_frag_dist_std_dev 50 --i-file ../h1.fa --o-fastq scere_art_sec2TN_pe_150bp_80x.fq.gz --i-fcov 80 --o-fastq-compression gzip --i-seed 505
+[2026-06-23 09:15:00.301149] [T=0x00007f28f75ad780@MPI=:] info: Using built-in quality profile HiSeq2500_150bp
+[2026-06-23 09:15:00.302050] [T=0x00007f28f75ad780@MPI=:] info: QRange for R1: [3, 41].
+[2026-06-23 09:15:00.302874] [T=0x00007f28f75ad780@MPI=:] info: QRange for R2: [3, 41].
+[2026-06-23 09:15:00.302900] [T=0x00007f28f75ad780@MPI=:] warning: The number of distinct quality scores in the profile is less than 10. This may due to binning and lead to unrealistic quality profiles.
+[2026-06-23 09:15:00.302907] [T=0x00007f28f75ad780@MPI=:] info: Read quality profile loaded successfully.
+[2026-06-23 09:15:00.302912] [T=0x00007f28f75ad780@MPI=:] info: Read quality profile size for R1: 150
+[2026-06-23 09:15:00.302920] [T=0x00007f28f75ad780@MPI=:] info: Read quality profile size for R2: 150
+[2026-06-23 09:15:00.302928] [T=0x00007f28f75ad780@MPI=:] info: No read length parameter is specified. Using the longest read length in quality profile: 150 for read 1, 150 for read 2.
+[2026-06-23 09:15:00.303184] [T=0x00007f28f75ad780@MPI=:] info: Using random seed: 0x1f9
+[2026-06-23 09:15:00.304418] [T=0x00007f28f75ad780@MPI=:] info: Argument parsing finished. Start generating...
+[2026-06-23 09:15:00.304436] [T=0x00007f28f75ad780@MPI=:] info: Boost::timer started.
+[2026-06-23 09:15:00.304448] [T=0x00007f28f75ad780@MPI=:] debug: Using seed: 0x1f9.
+[2026-06-23 09:15:00.336588] [T=0x00007f28f75ad780@MPI=:] debug: Output writer PWA not specified, skipping.
+[2026-06-23 09:15:00.336614] [T=0x00007f28f75ad780@MPI=:] debug: Output writer FASTA not specified, skipping.
+[2026-06-23 09:15:00.343635] [T=0x00007f28f75ad780@MPI=:] warning: Output file at 'scere_art_sec2TN_pe_150bp_80x.fq.gz' exists and will be overwritten.
+[2026-06-23 09:15:00.343669] [T=0x00007f28f75ad780@MPI=:] info: FASTQ LockFreeIO: Writer to 'scere_art_sec2TN_pe_150bp_80x.fq.gz' added.
+[2026-06-23 09:15:00.448427] [T=0x00007f28f75ad780@MPI=:] debug: Output writer BAM not specified, skipping.
+[2026-06-23 09:15:00.448458] [T=0x00007f28f75ad780@MPI=:] debug: Output writer HeadlessBam not specified, skipping.
+[2026-06-23 09:15:00.448462] [T=0x00007f28f75ad780@MPI=:] info: All writers added
+[2026-06-23 09:15:00.449098] [T=0x00007f28f25fa6c0@MPI=:] info: Starting simulation for job 7 with 17 contigs
+[2026-06-23 09:15:00.449068] [T=0x00007f28f4dff6c0@MPI=:] info: Starting simulation for job 1 with 17 contigs
+[2026-06-23 09:15:00.449301] [T=0x00007f28f45fe6c0@MPI=:] info: Starting simulation for job 2 with 17 contigs
+[2026-06-23 09:15:00.449628] [T=0x00007f28f75ad780@MPI=:] info: All jobs submitted. Waiting for job pool to stop...
+[2026-06-23 09:15:00.449608] [T=0x00007f28f1df96c0@MPI=:] info: Starting simulation for job 8 with 17 contigs
+[2026-06-23 09:15:00.449811] [T=0x00007f28eedf36c0@MPI=:] info: Starting simulation for job 12 with 17 contigs
+[2026-06-23 09:15:00.449865] [T=0x00007f28f2dfb6c0@MPI=:] info: Starting simulation for job 6 with 17 contigs
+[2026-06-23 09:15:00.449906] [T=0x00007f28f0df76c0@MPI=:] info: Starting simulation for job 10 with 17 contigs
+[2026-06-23 09:15:00.449965] [T=0x00007f28f05f66c0@MPI=:] info: Starting simulation for job 3 with 17 contigs
+[2026-06-23 09:15:00.452824] [T=0x00007f28ed5f06c0@MPI=:] info: Starting simulation for job 16 with 17 contigs
+[2026-06-23 09:15:00.452902] [T=0x00007f28efdf56c0@MPI=:] info: Starting simulation for job 11 with 17 contigs
+[2026-06-23 09:15:00.452925] [T=0x00007f28f3dfd6c0@MPI=:] info: Starting simulation for job 4 with 17 contigs
+[2026-06-23 09:15:00.453195] [T=0x00007f28eddf16c0@MPI=:] info: Starting simulation for job 14 with 17 contigs
+[2026-06-23 09:15:00.453983] [T=0x00007f28ef5f46c0@MPI=:] info: Starting simulation for job 15 with 17 contigs
+[2026-06-23 09:15:00.454798] [T=0x00007f28f15f86c0@MPI=:] info: Starting simulation for job 5 with 17 contigs
+[2026-06-23 09:15:00.454907] [T=0x00007f28ee5f26c0@MPI=:] info: Starting simulation for job 13 with 17 contigs
+[2026-06-23 09:15:00.456771] [T=0x00007f28f35fc6c0@MPI=:] info: Starting simulation for job 9 with 17 contigs
+[2026-06-23 09:15:05.449904] [T=0x00007f28d4ddb6c0@MPI=:] info: AJEReporter: Job 1:nompi | ON: 'NC_001143.9' | SUCCESS: current=2.55K, left=8.27K | FAIL: current=0.00, max=2.16K | TOTAL: 215.63K
+[2026-06-23 09:15:05.450031] [T=0x00007f28c4ffc6c0@MPI=:] info: AJEReporter: Job 12:nompi | ON: 'NC_001143.9' | SUCCESS: current=10.03K, left=804.00 | FAIL: current=0.00, max=2.16K | TOTAL: 223.12K
+[2026-06-23 09:15:05.449866] [T=0x00007f28cdbfe6c0@MPI=:] info: AJEReporter: Job 2:nompi | ON: 'NC_001143.9' | SUCCESS: current=3.17K, left=7.65K | FAIL: current=0.00, max=2.16K | TOTAL: 216.25K
+[2026-06-23 09:15:05.449996] [T=0x00007f28cffff6c0@MPI=:] info: AJEReporter: Job 7:nompi | ON: 'NC_001142.9' | SUCCESS: current=11.75K, left=272.00 | FAIL: current=0.00, max=2.40K | TOTAL: 200.80K
+[2026-06-23 09:15:05.449949] [T=0x00007f28ccbfc6c0@MPI=:] info: AJEReporter: Job 8:nompi | ON: 'NC_001143.9' | SUCCESS: current=5.58K, left=5.23K | FAIL: current=0.00, max=2.16K | TOTAL: 229.49K
+[2026-06-23 09:15:05.450819] [T=0x00007f28cd3fd6c0@MPI=:] info: AJEReporter: Job 10:nompi | ON: 'NC_001142.9' | SUCCESS: current=7.33K, left=4.69K | FAIL: current=0.00, max=2.40K | TOTAL: 208.40K
+[2026-06-23 09:15:05.450961] [T=0x00007f28b6ffe6c0@MPI=:] info: AJEReporter: Job 6:nompi | ON: 'NC_001144.5' | SUCCESS: current=756.00, left=16.66K | FAIL: current=0.00, max=3.48K | TOTAL: 235.46K
+[2026-06-23 09:15:05.453375] [T=0x00007f28b5ffc6c0@MPI=:] info: AJEReporter: Job 16:nompi | ON: 'NC_001143.9' | SUCCESS: current=1.27K, left=9.54K | FAIL: current=0.00, max=2.16K | TOTAL: 214.36K
+[2026-06-23 09:15:05.453531] [T=0x00007f28aeffd6c0@MPI=:] info: AJEReporter: Job 9:nompi | ON: 'NC_001143.9' | SUCCESS: current=652.00, left=10.18K | FAIL: current=0.00, max=2.16K | TOTAL: 224.54K
+[2026-06-23 09:15:05.453656] [T=0x00007f28affff6c0@MPI=:] info: AJEReporter: Job 14:nompi | ON: 'NC_001143.9' | SUCCESS: current=5.24K, left=5.57K | FAIL: current=0.00, max=2.16K | TOTAL: 218.33K
+[2026-06-23 09:15:05.453783] [T=0x00007f28cf7fe6c0@MPI=:] info: AJEReporter: Job 3:nompi | ON: 'NC_001142.9' | SUCCESS: current=9.49K, left=2.53K | FAIL: current=0.00, max=2.40K | TOTAL: 210.56K
+[2026-06-23 09:15:05.453891] [T=0x00007f28af7fe6c0@MPI=:] info: AJEReporter: Job 15:nompi | ON: 'NC_001143.9' | SUCCESS: current=3.79K, left=7.03K | FAIL: current=0.00, max=2.16K | TOTAL: 216.87K
+[2026-06-23 09:15:05.454148] [T=0x00007f28b67fd6c0@MPI=:] info: AJEReporter: Job 4:nompi | ON: 'NC_001143.9' | SUCCESS: current=4.88K, left=5.93K | FAIL: current=0.00, max=2.16K | TOTAL: 217.97K
+[2026-06-23 09:15:05.455813] [T=0x00007f28b4ffa6c0@MPI=:] info: AJEReporter: Job 5:nompi | ON: 'NC_001143.9' | SUCCESS: current=9.64K, left=1.17K | FAIL: current=0.00, max=2.16K | TOTAL: 233.54K
+[2026-06-23 09:15:05.455906] [T=0x00007f28b57fb6c0@MPI=:] info: AJEReporter: Job 11:nompi | ON: 'NC_001144.5' | SUCCESS: current=11.26K, left=6.14K | FAIL: current=0.00, max=3.48K | TOTAL: 245.98K
+[2026-06-23 09:15:05.457888] [T=0x00007f28ae7fc6c0@MPI=:] info: AJEReporter: Job 13:nompi | ON: 'NC_001143.9' | SUCCESS: current=2.72K, left=8.09K | FAIL: current=0.00, max=2.16K | TOTAL: 215.81K
+[2026-06-23 09:15:08.685228] [T=0x00007f28f2dfb6c0@MPI=:] info: Finished simulation for job 6 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:08.877289] [T=0x00007f28f35fc6c0@MPI=:] info: Finished simulation for job 9 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:09.013518] [T=0x00007f28f15f86c0@MPI=:] info: Finished simulation for job 5 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:09.115431] [T=0x00007f28ef5f46c0@MPI=:] info: Finished simulation for job 15 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:09.170887] [T=0x00007f28f1df96c0@MPI=:] info: Finished simulation for job 8 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:09.192369] [T=0x00007f28efdf56c0@MPI=:] info: Finished simulation for job 11 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:09.289209] [T=0x00007f28ed5f06c0@MPI=:] info: Finished simulation for job 16 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:09.348486] [T=0x00007f28f3dfd6c0@MPI=:] info: Finished simulation for job 4 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:09.375066] [T=0x00007f28ee5f26c0@MPI=:] info: Finished simulation for job 13 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:09.386716] [T=0x00007f28f05f66c0@MPI=:] info: Finished simulation for job 3 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:09.407717] [T=0x00007f28eedf36c0@MPI=:] info: Finished simulation for job 12 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:09.422881] [T=0x00007f28f25fa6c0@MPI=:] info: Finished simulation for job 7 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:09.425505] [T=0x00007f28f45fe6c0@MPI=:] info: Finished simulation for job 2 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:09.455740] [T=0x00007f28f4dff6c0@MPI=:] info: Finished simulation for job 1 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:09.566105] [T=0x00007f28f0df76c0@MPI=:] info: Finished simulation for job 10 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:09.639903] [T=0x00007f28eddf16c0@MPI=:] info: Finished simulation for job 14 with 393.86K reads (mean depth=5.00004) generated.
+[2026-06-23 09:15:09.641355] [T=0x00007f28f75ad780@MPI=:] info: Job pool stopped.
+[2026-06-23 09:24:45.193707] [T=0x00007f28f75ad780@MPI=:] info: FASTQ LockFreeIO: Writer to 'scere_art_sec2TN_pe_150bp_80x.fq.gz' closed.
+[2026-06-23 09:24:45.193817] [T=0x00007f28f75ad780@MPI=:] info: FASTQ LockFreeIO: Finished, consuming 3,226,480 reads and writes 3,226,480 reads.
+[2026-06-23 09:24:45.193852] [T=0x00007f28f75ad780@MPI=:] info: FASTQ LockFreeIO: N. (IRetried/IAll): 0(0%).
+[2026-06-23 09:24:45.193885] [T=0x00007f28f75ad780@MPI=:] info: FASTQ LockFreeIO: N. (OFull/ONotFull/OEmpty): 27(45.7627%) / 14(23.7288%) / 18(30.5085%);  avg. write batch size: 54686.1.
+[2026-06-23 09:24:45.193919] [T=0x00007f28f75ad780@MPI=:] info: FASTQ LockFreeIO: 1.99GB written in 584.745 seconds. Speed: 3.49MB/s.
+[2026-06-23 09:24:45.193961] [T=0x00007f28f75ad780@MPI=:] info: Output dispatchers cleared.
+[2026-06-23 09:24:45.193984] [T=0x00007f28f75ad780@MPI=:] info: Generator finished.
+[2026-06-23 09:24:45.349661] [T=0x00007f28f75ad780@MPI=:] info: All reads generated.
+[2026-06-23 09:24:45.349751] [T=0x00007f28f75ad780@MPI=:] info: Time spent: 585.040s wall, 708.740s user + 5.680s system = 714.420s CPU (122.1%)
+[2026-06-23 09:24:45.349791] [T=0x00007f28f75ad780@MPI=:] info: Done.
+[2026-06-23 09:24:45.349816] [T=0x00007f28f75ad780@MPI=:] info: EXIT

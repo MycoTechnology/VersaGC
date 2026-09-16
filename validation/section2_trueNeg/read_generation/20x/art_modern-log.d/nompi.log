@@ -1,0 +1,67 @@
+[2026-06-23 08:56:54.085672] [T=0x0000799347bfd780@MPI=:] info: Log file sink to '/home/chase/Documents/gap_closure_tool/validation/section2_trueNeg/read_generation/20x/art_modern-log.d/nompi.log' added.
+[2026-06-23 08:56:54.085827] [T=0x0000799347bfd780@MPI=:] info: MPI not found! Cross-node parallelism disabled.
+[2026-06-23 08:56:54.086235] [T=0x0000799347bfd780@MPI=:] info: ARGS: art_modern --mode wgs --lc pe --pe_frag_dist_mean 300 --pe_frag_dist_std_dev 50 --i-file ../h1.fa --o-fastq scere_art_sec2TN_pe_150bp_20x.fq.gz --i-fcov 20 --o-fastq-compression gzip --i-seed 505
+[2026-06-23 08:56:54.275230] [T=0x0000799347bfd780@MPI=:] info: Using built-in quality profile HiSeq2500_150bp
+[2026-06-23 08:56:54.276088] [T=0x0000799347bfd780@MPI=:] info: QRange for R1: [3, 41].
+[2026-06-23 08:56:54.276902] [T=0x0000799347bfd780@MPI=:] info: QRange for R2: [3, 41].
+[2026-06-23 08:56:54.276927] [T=0x0000799347bfd780@MPI=:] warning: The number of distinct quality scores in the profile is less than 10. This may due to binning and lead to unrealistic quality profiles.
+[2026-06-23 08:56:54.276933] [T=0x0000799347bfd780@MPI=:] info: Read quality profile loaded successfully.
+[2026-06-23 08:56:54.276939] [T=0x0000799347bfd780@MPI=:] info: Read quality profile size for R1: 150
+[2026-06-23 08:56:54.276947] [T=0x0000799347bfd780@MPI=:] info: Read quality profile size for R2: 150
+[2026-06-23 08:56:54.276954] [T=0x0000799347bfd780@MPI=:] info: No read length parameter is specified. Using the longest read length in quality profile: 150 for read 1, 150 for read 2.
+[2026-06-23 08:56:54.277164] [T=0x0000799347bfd780@MPI=:] info: Using random seed: 0x1f9
+[2026-06-23 08:56:54.278391] [T=0x0000799347bfd780@MPI=:] info: Argument parsing finished. Start generating...
+[2026-06-23 08:56:54.278406] [T=0x0000799347bfd780@MPI=:] info: Boost::timer started.
+[2026-06-23 08:56:54.278418] [T=0x0000799347bfd780@MPI=:] debug: Using seed: 0x1f9.
+[2026-06-23 08:56:54.310787] [T=0x0000799347bfd780@MPI=:] debug: Output writer PWA not specified, skipping.
+[2026-06-23 08:56:54.310816] [T=0x0000799347bfd780@MPI=:] debug: Output writer FASTA not specified, skipping.
+[2026-06-23 08:56:54.318308] [T=0x0000799347bfd780@MPI=:] warning: Output file at 'scere_art_sec2TN_pe_150bp_20x.fq.gz' exists and will be overwritten.
+[2026-06-23 08:56:54.318341] [T=0x0000799347bfd780@MPI=:] info: FASTQ LockFreeIO: Writer to 'scere_art_sec2TN_pe_150bp_20x.fq.gz' added.
+[2026-06-23 08:56:54.423267] [T=0x0000799347bfd780@MPI=:] debug: Output writer BAM not specified, skipping.
+[2026-06-23 08:56:54.423291] [T=0x0000799347bfd780@MPI=:] debug: Output writer HeadlessBam not specified, skipping.
+[2026-06-23 08:56:54.423294] [T=0x0000799347bfd780@MPI=:] info: All writers added
+[2026-06-23 08:56:54.423802] [T=0x000079933ebf26c0@MPI=:] info: Starting simulation for job 1 with 17 contigs
+[2026-06-23 08:56:54.423906] [T=0x00007993413f76c0@MPI=:] info: Starting simulation for job 13 with 17 contigs
+[2026-06-23 08:56:54.424086] [T=0x000079933fbf46c0@MPI=:] info: Starting simulation for job 3 with 17 contigs
+[2026-06-23 08:56:54.424162] [T=0x0000799341bf86c0@MPI=:] info: Starting simulation for job 6 with 17 contigs
+[2026-06-23 08:56:54.424274] [T=0x00007993403f56c0@MPI=:] info: Starting simulation for job 7 with 17 contigs
+[2026-06-23 08:56:54.424437] [T=0x00007993453ff6c0@MPI=:] info: Starting simulation for job 2 with 17 contigs
+[2026-06-23 08:56:54.424405] [T=0x000079933e3f16c0@MPI=:] info: Starting simulation for job 14 with 17 contigs
+[2026-06-23 08:56:54.424562] [T=0x00007993423f96c0@MPI=:] info: Starting simulation for job 8 with 17 contigs
+[2026-06-23 08:56:54.424579] [T=0x0000799340bf66c0@MPI=:] info: Starting simulation for job 12 with 17 contigs
+[2026-06-23 08:56:54.424599] [T=0x00007993443fd6c0@MPI=:] info: Starting simulation for job 9 with 17 contigs
+[2026-06-23 08:56:54.424639] [T=0x0000799344bfe6c0@MPI=:] info: Starting simulation for job 5 with 17 contigs
+[2026-06-23 08:56:54.424685] [T=0x000079933f3f36c0@MPI=:] info: Starting simulation for job 16 with 17 contigs
+[2026-06-23 08:56:54.424711] [T=0x000079933dbf06c0@MPI=:] info: Starting simulation for job 15 with 17 contigs
+[2026-06-23 08:56:54.424754] [T=0x0000799343bfc6c0@MPI=:] info: Starting simulation for job 10 with 17 contigs
+[2026-06-23 08:56:54.424767] [T=0x00007993433fb6c0@MPI=:] info: Starting simulation for job 4 with 17 contigs
+[2026-06-23 08:56:54.424531] [T=0x0000799342bfa6c0@MPI=:] info: Starting simulation for job 11 with 17 contigs
+[2026-06-23 08:56:54.427695] [T=0x0000799347bfd780@MPI=:] info: All jobs submitted. Waiting for job pool to stop...
+[2026-06-23 08:56:56.504933] [T=0x000079933e3f16c0@MPI=:] info: Finished simulation for job 14 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.505371] [T=0x0000799343bfc6c0@MPI=:] info: Finished simulation for job 10 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.512302] [T=0x0000799341bf86c0@MPI=:] info: Finished simulation for job 6 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.529656] [T=0x000079933f3f36c0@MPI=:] info: Finished simulation for job 16 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.538422] [T=0x00007993433fb6c0@MPI=:] info: Finished simulation for job 4 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.563316] [T=0x00007993403f56c0@MPI=:] info: Finished simulation for job 7 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.636798] [T=0x000079933fbf46c0@MPI=:] info: Finished simulation for job 3 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.648327] [T=0x0000799344bfe6c0@MPI=:] info: Finished simulation for job 5 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.652330] [T=0x00007993413f76c0@MPI=:] info: Finished simulation for job 13 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.655076] [T=0x00007993443fd6c0@MPI=:] info: Finished simulation for job 9 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.704369] [T=0x00007993423f96c0@MPI=:] info: Finished simulation for job 8 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.709794] [T=0x0000799342bfa6c0@MPI=:] info: Finished simulation for job 11 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.736475] [T=0x00007993453ff6c0@MPI=:] info: Finished simulation for job 2 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.752609] [T=0x000079933dbf06c0@MPI=:] info: Finished simulation for job 15 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.753468] [T=0x0000799340bf66c0@MPI=:] info: Finished simulation for job 12 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.830529] [T=0x000079933ebf26c0@MPI=:] info: Finished simulation for job 1 with 98.47K reads (mean depth=1.25004) generated.
+[2026-06-23 08:56:56.832254] [T=0x0000799347bfd780@MPI=:] info: Job pool stopped.
+[2026-06-23 08:59:13.970081] [T=0x0000799347bfd780@MPI=:] info: FASTQ LockFreeIO: Writer to 'scere_art_sec2TN_pe_150bp_20x.fq.gz' closed.
+[2026-06-23 08:59:13.970163] [T=0x0000799347bfd780@MPI=:] info: FASTQ LockFreeIO: Finished, consuming 806,640 reads and writes 806,640 reads.
+[2026-06-23 08:59:13.970185] [T=0x0000799347bfd780@MPI=:] info: FASTQ LockFreeIO: N. (IRetried/IAll): 0(0%).
+[2026-06-23 08:59:13.970206] [T=0x0000799347bfd780@MPI=:] info: FASTQ LockFreeIO: N. (OFull/ONotFull/OEmpty): 7(21.2121%) / 13(39.3939%) / 13(39.3939%);  avg. write batch size: 24443.6.
+[2026-06-23 08:59:13.970224] [T=0x0000799347bfd780@MPI=:] info: FASTQ LockFreeIO: 509.51MB written in 139.547 seconds. Speed: 3.65MB/s.
+[2026-06-23 08:59:13.970248] [T=0x0000799347bfd780@MPI=:] info: Output dispatchers cleared.
+[2026-06-23 08:59:13.970267] [T=0x0000799347bfd780@MPI=:] info: Generator finished.
+[2026-06-23 08:59:13.996172] [T=0x0000799347bfd780@MPI=:] info: All reads generated.
+[2026-06-23 08:59:13.996227] [T=0x0000799347bfd780@MPI=:] info: Time spent: 139.720s wall, 170.240s user + 1.710s system = 171.950s CPU (123.1%)
+[2026-06-23 08:59:13.996255] [T=0x0000799347bfd780@MPI=:] info: Done.
+[2026-06-23 08:59:13.996335] [T=0x0000799347bfd780@MPI=:] info: EXIT
